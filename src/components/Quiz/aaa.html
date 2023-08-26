@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300;1,500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+        font-family: "Roboto", sans-serif;
+      }
+      .main {
+        width: 100%;
+        margin: 0px auto;
+      }
+
+      .h-01 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        font-size: 35px;
+      }
+      .nav-ele ul {
+        list-style: none;
+        display: flex;
+        width: 600px;
+
+        justify-content: space-around;
+      }
+      .text-p {
+        text-align: center;
+        padding: 20px;
+        font-size: 26px;
+      }
+      .button-01 {
+        background-color: rgb(74, 74, 212);
+        color: white;
+        padding: 16px 32px 16px 32px;
+        border-radius: 8%;
+      }
+      .description {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <header class="h-01">
+          <div class="logo">
+            <h1>Quiz</h1>
+          </div>
+          <div class="nav-ele">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+          </div>
+        </header>
+
+        <section class="description">
+          <p class="text-p">
+            Welcome to the JavaScript Quiz! This quiz will challenge your
+            understanding of JavaScript, <br />
+            the versatile and powerful programming language used to create
+            dynamic and interactive<br />
+            websites. JavaScript is a core component of web development and
+            allows developers to add functionality,<br />
+            interactivity, and behavior to web pages. So, let's dive in and test
+            your JavaScript skills!
+          </p>
+          <button class="button-01"><a href="./Signup.js">Continue</a></button>
+        </section>
+        <section>
+          <div>
+            <div>What is the output of the following code snippet?</div>
+            <div>
+              <div><input type="radio" value="first-answer" /> a) 4</div>
+              <div><input type="radio" value="first-answer" />b) 22</div>
+              <div><input type="radio" value="first-answer" />c) "22"</div>
+              <div><input type="radio" value="first-answer" />d) NaN</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
